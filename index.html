@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B-Marks-Project</title>
+    <link rel="stylesheet" href="./app.css">
+    <link rel="stylesheet" href="./login.css">
+    <link rel="stylesheet" href="./mediaScreen.css">
+     <!--IconScout Icons Link-->
+     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+     <!--Awsom Font Link-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!--Swiper-Js-->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <!--End of Swiper Js-->
+</head>
+<body>
+    <!-----------------Navgiagtion Bar-------------->
+    <nav>
+        <div class="container navitagtion">
+            <a href="#" class="logo"><h3>B-MARK'S</h3></a>
+            <ul class="nav_menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav_buttons">
+                <button  type="button" class="btn btn-round btn-transparent login_Btn">LOGIN</button>
+                <button type="button" class="btn btn-primary btn-round join">JOIN</button>
+            </div>
+
+            <!--Menu For Small Screens-->
+            <div class="small_menu">
+                <li><a href="#"><i class="uil uil-home activeLink"></i></a></li>
+                <li><a href="#about"><i class="uil uil-user"></i></a></li>
+                <li><a href="#portfolio"><i class="uil uil-desktop-alt"></i></a></li>
+                <li><a href="#contact"><i class="uil uil-comment-alt-message"></i></a></li>
+                <li class="login_Btn_icon"><i class="uil uil-signin"></i></li>
+            </div>
+        </div>
+    </nav>
+
+
+    <!------Header section--------->
+    <section class="header">
+        <div class="container header_container">
+            <span class="title">Hello!! Friend, Welcome</span>
+            <div class="header-links">
+                <a href="#" class="btn btn-round">Learn More</a>
+                <a href="#" class="btn btn-primary btn-round">Suscribe</a>
+            </div>
+        </div>
+    </section>
+    
+    <div class="sign-forms">
+        <div class="forms-wrapper">
+            <div class="close-icon">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+            <!--Login Div Area-->    
+            <div class="form-box login">
+                <h1>Login</h1>
+                <div class="input-box">
+                    <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><i class="fa-solid fa-lock"></i></span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label>
+                        <input type="checkbox">
+                        Remember Me
+                    </label>
+                    <a href="#">Forgot Password</a>
+                </div>
+                <input type="button" value="Login" class="form_btn">
+                <div class="login-register">
+                    <p>
+                        Don't Have An Account?
+                        <span class="register-link">Register</span>
+                    </p>
+                </div>
+            </div>
+            <!--End of Login Div-->
+    
+            <!--SignUp Div Area-->    
+            <div class="form-box register">
+                <h1>Registration</h1>
+                <div class="input-box">
+                    <span class="icon"><i class="fa-solid fa-user"></i></span>
+                    <input type="text" required>
+                    <label>Username</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><i class="fa-solid fa-lock"></i></span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label>
+                        <input type="checkbox" id="agree">
+                         Agree with terms & condition
+                    </label>
+                </div>
+                <input type="button" value="Register" class="register_btn form_btn" disabled>
+                <div class="login-register">
+                    <p>
+                        Already Have An Account?
+                        <span class="login-link">Login</span>
+                    </p>
+                </div>
+            </div>
+            <!--End of Registration Div-->
+        </div>
+
+    </div>
+
+
+    <!------------About Section------------>
+    <section class="about" id="about">
+        <h2 class="fade-in">About Me</h2>
+        <div class="container about_container">
+            <div class="about_container_top">
+                <!--Articles-->
+                <article class="about_info fade-in">
+                    <h3 class="fade-in">Coming Soon</h3>
+                    <p class="fade-in">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque reprehenderit consequuntur ab beatae suscipit facilis distinctio earum, nesciunt earum quibusdam recusandae iure officia veritatis dolore temporibus.Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                </article>
+                
+                <!--Articles-->
+                <article class="about_info fade-in">
+                    <h3 class="fade-in">It's Amazing</h3>
+                    <p class="fade-in">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque reprehenderit consequuntur ab beatae suscipit facilis distinctio earum, nesciunt earum quibusdam recusandae iure officia veritatis dolore temporibus.Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                </article>
+                
+                <!--Articles-->
+                <article class="about_info fade-in">
+                    <h3 class="fade-in">It's Life Changing</h3>
+                    <p class="fade-in">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque reprehenderit consequuntur ab beatae suscipit facilis distinctio earum, nesciunt earum quibusdam recusandae iure officia veritatis dolore temporibus.Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                </article>
+            </div>
+            
+
+            <div class="about_container_down">
+                <!--Article-->
+                <article class="about_down_cont fade-in">
+                    <div class="about_image">
+                        <img src="./img/fjords.jpg" alt="Images">
+                    </div>
+                    <div class="about_down_info">
+                        <h4>Positive Mind</h4>
+                        <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore quisquam, repudiandae atque voluptatem quasi sint?
+                        </p>
+                        <button class="btn">Quick View</button>
+                    </div>
+                </article>
+
+                <!--Article-->
+                <article class="about_down_cont fade-in">
+                    <div class="about_image">
+                        <img src="./img/nature.jpg" alt="Images">
+                    </div>
+                    <div class="about_down_info">
+                        <h4>Love God</h4>
+                        <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore quisquam, repudiandae atque voluptatem quasi sint?
+                        </p>
+                        <button class="btn">Let's Talk</button>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+    
+    <!--Experince Section-->
+    <section class="exp_sect_pic" id="experience">
+        <h2 class="fade-in">My Experience</h2>
+    </section>
+    <section class="experince">
+        <div class="container experince_container">
+
+            <!--Frontend Development-->
+            <div class="end_development slideLeft">
+                <h4>Frontend Development</h4>
+                <div class="end_content">
+
+                    <article>
+                        <span class="exp_icon"><i class="uil uil-label"></i></span>
+                    <span>
+                        <h5>HTML</h5>
+                        <h6 class="light-text">Experinced</h6>
+                    </span>
+                    </article>
+
+                    <article>
+                        <span class="exp_icon"><i class="uil uil-label"></i></span>
+                    <span>
+                        <h5>CSS</h5>
+                        <h6 class="light-text">Intermediate</h6>
+                    </span>
+                    </article>
+
+                    <article>
+                        <span class="exp_icon"><i class="uil uil-label"></i></span>
+                    <span>
+                        <h5>React JS</h5>
+                        <h6 class="light-text">Intermediate</h6>
+                    </span>
+                    </article>
+
+                    <article>
+                        <span class="exp_icon"><i class="uil uil-label"></i></span>
+                    <span>
+                        <h5>BootStrap</h5>
+                        <h6 class="light-text">Intermediate</h6>
+                    </span>
+                    </article>
+
+                    <article>
+                        <span class="exp_icon"><i class="uil uil-label"></i></span>
+                    <span>
+                        <h5>JavaScript</h5>
+                        <h6 class="light-text">Experinced</h6>
+                    </span>
+                    </article>
+
+                    <article>
+                        <span class="exp_icon"><i class="uil uil-label"></i></span>
+                    <span>
+                        <h5>Tailwind</h5>
+                        <h6 class="light-text">Experinced</h6>
+                    </span>
+                    </article>
+
+                </div>
+            </div>
+
+            <!--Backend Development-->
+            <div class="end_development slideRight">
+                <h4>Backend Development</h4>
+                <div class="end_content">
+
+                    <article>
+                        <span class="exp_icon"><i class="uil uil-label"></i></span>
+                    <span>
+                        <h5>Node Js</h5>
+                        <h6 class="light-text">Experinced</h6>
+                    </span>
+                    </article>
+
+                    <article>
+                        <span class="exp_icon"><i class="uil uil-label"></i></span>
+                    <span>
+                        <h5>PHP</h5>
+                        <h6 class="light-text">Intermediate</h6>
+                    </span>
+                    </article>
+
+                    <article>
+                        <span class="exp_icon"><i class="uil uil-label"></i></span>
+                    <span>
+                        <h5>MongoDB</h5>
+                        <h6 class="light-text">Intermediate</h6>
+                    </span>
+                    </article>
+
+                    <article>
+                        <span class="exp_icon"><i class="uil uil-label"></i></span>
+                    <span>
+                        <h5>Python</h5>
+                        <h6 class="light-text">Intermediate</h6>
+                    </span>
+                    </article>
+
+                    <article>
+                        <span class="exp_icon"><i class="uil uil-label"></i></span>
+                    <span>
+                        <h5>MySql</h5>
+                        <h6 class="light-text">Experinced</h6>
+                    </span>
+                    </article>
+
+                    <article>
+                        <span class="exp_icon"><i class="uil uil-label"></i></span>
+                    <span>
+                        <h5>Java</h5>
+                        <h6 class="light-text">Experinced</h6>
+                    </span>
+                    </article>
+
+                </div>
+            </div>    
+        </div>
+
+    </section>
+    <!--Portfolio Section-->
+    <section class="porfolio_sect_pic" id="portfolio">
+        <h2 class="fade-in">Portfolio</h2>
+    </section>
+    <section class="portfolio">
+        <div class="container portfolio_container">
+           <!--Article --> 
+            <article class="portfolio_content">
+                <div class="portfolio_image">
+                    <img src="./img/project1.png" alt="Portfolio">
+                </div>
+                <h4>School Website</h4>
+                <div class="portfolio_links">
+                    <a href="https://bk-owusu.github.io" class="btn" target="_blank">Github</a>
+                    <a href="https://bk-owusu.github.io/oams" class="btn btn-primary" target="_blank">Github</a>
+                </div>
+             </article>  
+              
+           <!--Article --> 
+            <article class="portfolio_content">
+                <div class="portfolio_image">
+                    <img src="./img/project3.png" alt="Portfolio">
+                </div>
+                <h4>Prallax Effects</h4>
+                <div class="portfolio_links">
+                    <a href="https://bk-owusu.github.io" class="btn" target="_blank">Github</a>
+                    <a href="https://bk-owusu.github.io" class="btn btn-primary" target="_blank">Github</a>
+                </div>
+             </article>  
+           <!--Article --> 
+            <article class="portfolio_content">
+                <div class="portfolio_image">
+                    <img src="./img/project2.png" alt="Portfolio">
+                </div>
+                <h4>Portfolio's</h4>
+                <div class="portfolio_links">
+                    <a href="https://bk-owusu.github.io/my-react-project" class="btn" target="_blank">Github</a>
+                    <a href="https://bk-owusu.github.io/my-react-project" class="btn btn-primary" target="_blank">Github</a>
+                </div>
+             </article>  
+           <!--Article --> 
+            <article class="portfolio_content">
+                <div class="portfolio_image">
+                    <img src="./img/project4.png" alt="Portfolio">
+                </div>
+                <h4>3D Website</h4>
+                <div class="portfolio_links">
+                    <a href="https://bk-owusu.github.io" class="btn" target="_blank">Github</a>
+                    <a href="https://bk-owusu.github.io" class="btn btn-primary" target="_blank">Github</a>
+                </div>
+             </article>  
+           <!--Article --> 
+            <article class="portfolio_content">
+                <div class="portfolio_image">
+                    <img src="./img/project5.png" alt="Portfolio">
+                </div>
+                <h4>Video Website</h4>
+                <div class="portfolio_links">
+                    <a href="https://bk-owusu.github.io" class="btn" target="_blank">Github</a>
+                    <a href="https://bk-owusu.github.io" class="btn btn-primary" target="_blank">Github</a>
+                </div>
+             </article>  
+           <!--Article --> 
+            <article class="portfolio_content">
+                <div class="portfolio_image">
+                    <img src="./img/project6.png" alt="Portfolio">
+                </div>
+                <h4>UI Designs</h4>
+                <div class="portfolio_links">
+                    <a href="https://bk-owusu.github.io" class="btn" target="_blank">Github</a>
+                    <a href="https://bk-owusu.github.io" class="btn btn-primary" target="_blank">Github</a>
+                </div>
+             </article>  
+
+        </div>
+    </section>
+
+
+    <!-- Swiper -->
+  <section class="gallery" id="gallery">
+    <h2 class="fade-in">Gallery</h2>
+    <div class="container gallery_container">
+        
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"> <img src="./img/tm1.jpg" alt="puctures"></div>
+                <div class="swiper-slide"> <img src="./img/tm2.jpg" alt="puctures"></div>
+                <div class="swiper-slide"> <img src="./img/tm3.jpg" alt="puctures"></div>
+                <div class="swiper-slide"> <img src="./img/tm4.jpg" alt="puctures"></div>
+                <div class="swiper-slide"> <img src="./img/tm5.jpg" alt="puctures"></div>
+                <div class="swiper-slide"> <img src="./img/avatar1.jpg" alt="puctures"></div>
+                <div class="swiper-slide"> <img src="./img/avatar2.jpg" alt="puctures"></div>
+                <div class="swiper-slide"> <img src="./img/avatar3.jpg" alt="puctures"></div>
+                <div class="swiper-slide"> <img src="./img/beauty1.jpg" alt="puctures"></div>
+                <div class="swiper-slide"> <img src="./img/beauty2.jpeg" alt="puctures"></div>
+                <div class="swiper-slide"> <img src="./img/beauty3.jpg" alt="puctures"></div>
+                <div class="swiper-slide"> <img src="./img/beauty3.jpg" alt="puctures"></div>
+                <div class="swiper-slide"> <img src="./img/beauty5.jpeg" alt="puctures"></div>
+                <div class="swiper-slide"> <img src="./img/beauty6.jpeg" alt="puctures"></div>
+            </div>
+           <!--  <div class="swiper-pagination"></div> -->
+        </div>
+
+
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"> <img src="./img/beauty7.jpeg" alt="puctures"></div>
+                <div class="swiper-slide"> <img src="./img/beauty8.webp" alt="puctures"></div>
+                <div class="swiper-slide"> <img src="./img/beauty9.jpeg" alt="puctures"></div>
+                <div class="swiper-slide"> <img src="./img/tm6.jpg" alt="puctures"></div>
+                <div class="swiper-slide"> <img src="./img/tm7.jpg" alt="puctures"></div>
+                <div class="swiper-slide"> <img src="./img/tm8.jpg" alt="puctures"></div>
+                <div class="swiper-slide"> <img src="./img/tm9.jpg" alt="puctures"></div>
+                <div class="swiper-slide"> <img src="./img/tm10.jpg" alt="puctures"></div>
+                <div class="swiper-slide"> <img src="./img/avatar5.jpg" alt="puctures"></div>
+                <div class="swiper-slide"> <img src="./img/avatar6.jpg" alt="puctures"></div>
+                <div class="swiper-slide"> <img src="./img/avatar7.jpg" alt="puctures"></div>
+                <div class="swiper-slide"> <img src="./img/avatar2.jpg" alt="puctures"></div>
+            </div>
+            <!-- <div class="swiper-pagination"></div> -->
+        </div>
+</div>
+</section>
+
+    <!--Testimonial Section-->
+        
+        <section id="testimonials" class="testimonial">
+            <h2 class="fade-in">Testimonials</h2>
+                <div class="container testimonial_container">
+                    <div class="swiper testimonial_Swiper">
+                        <div class="swiper-wrapper">
+                    <!--Articles-->
+                            <article class="testimonials swiper-slide">
+                                <div class="testimonial_img-box">
+                                    <img src="./img/tm6.jpg">
+                                </div> 
+                                <div class="testimonial_info">
+                                    <h5>Lawson Bleketu</h5>
+                                    <small>Software Engineer</small>
+                                </div>
+                                <div class="testimonial_content">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quae inventore ex dicta et provident aut excepturi molestiae vero, totam commodi reprehenderit, eveniet voluptatem quisquam quo illo necessitatibus velit cumque.
+                                </div>
+                            </article>
+                            
+                                        <!--Articles-->
+                            <article class="testimonials swiper-slide">
+                                <div class="testimonial_img-box">
+                                    <img src="./img/bk_owusu.png">
+                                </div> 
+                                <div class="testimonial_info">
+                                    <h5>Bismark Kofi</h5>
+                                    <small>Web Developer</small>
+                                </div>
+                                <div class="testimonial_content">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quae inventore ex dicta et provident aut excepturi molestiae vero, totam commodi reprehenderit, eveniet voluptatem quisquam quo illo necessitatibus velit cumque.
+                                </div>
+                            </article>
+
+                            <!--Articles-->
+                            <article class="testimonials swiper-slide">
+                                <div class="testimonial_img-box">
+                                    <img src="./img/prince.jpg">
+                                </div> 
+                                <div class="testimonial_info">
+                                    <h5>Prince Boadi</h5>
+                                    <small>Prophet</small>
+                                </div>
+                                <div class="testimonial_content">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quae inventore ex dicta et provident aut excepturi molestiae vero, totam commodi reprehenderit, eveniet voluptatem quisquam quo illo necessitatibus velit cumque.
+                                </div>
+                            </article>
+
+                            <!--Articles-->
+                            <article class="testimonials swiper-slide">
+                                <div class="testimonial_img-box">
+                                    <img src="./img/tm8.jpg">
+                                </div> 
+                                <div class="testimonial_info">
+                                    <h5>Ohene David</h5>
+                                    <small>Apostle</small>
+                                </div>
+                                <div class="testimonial_content">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quae inventore ex dicta et provident aut excepturi molestiae vero, totam commodi reprehenderit, eveniet voluptatem quisquam quo illo necessitatibus velit cumque.
+                                </div>
+                            </article>
+
+                            <!--Articles-->
+                            <article class="testimonials swiper-slide">
+                                <div class="testimonial_img-box">
+                                    <img src="./img/avatar3.jpg">
+                                </div> 
+                                <div class="testimonial_info">
+                                    <h5>AJ Dives</h5>
+                                    <small>Web Developer</small>
+                                </div>
+                                <div class="testimonial_content">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quae inventore ex dicta et provident aut excepturi molestiae vero, totam commodi reprehenderit, eveniet voluptatem quisquam quo illo necessitatibus velit cumque.
+                                </div>
+                            </article>
+                    <!-- for pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>   
+
+         </div>   
+        </section>  
+
+
+    <!--Contact Section-->
+    <section class="contact" id="contact">
+        <h2 class="fade-in">Contact Me</h2>
+        <div class="container contact_container">
+
+            <div class="contact_socials">
+                  <article class="social_content">
+                    <span class="contact_social_icons"><i class="uil uil-envelope-check"></i></span>
+                    <h5>Email</h5>
+                    <h6>bismarko416@gmil.com</h6>
+                    <a href="mailto:owusubk416@gmail.com" target='_blank'>Send me a message</a>
+                  </article>  
+                  <article class="social_content">
+                    <span class="contact_social_icons"><i class="uil uil-facebook-messenger"></i></span>
+                    <h5>Messenger</h5>
+                    <h6>Bismark-Okyere</h6>
+                    <a href="https://m.me/bismark.okyere.505"  target='_blank'>Send me a message</a>
+                  </article>  
+                  <article class="social_content">
+                    <span class="contact_social_icons"><i class="uil uil-whatsapp"></i></span>
+                    <h5>WhatsApp</h5>
+                    <h6>bismarko416@gmil.com</h6>
+                    <a href="https://api.whatsapp.com/send?phone=+233547270155 "  target='_blank'>Let's Chat</a>
+                  </article>  
+            </div>
+        
+            <div class="contact_form">
+                <form ref="">
+                    <input type="text" name='text' placeholder='Enter Your Fullname' required/>
+                    <input type="email" name='email' placeholder='Enter Your Email' required/>
+                    <textarea name="message" rows="7" placeholder='Enter Message' required></textarea>
+                    <button type="submit" class='btn btn-primary'>Send Message</button>
+                  </form>
+        
+            </div>
+        </div>
+    </section>
+
+
+    <!--Footer Section-->
+    <section class="footer" id="footer">
+        <a href=""class="top_arrow"><i class="uil uil-arrow-circle-up"></i></a>
+        <div class="container footer_container">
+                <span><a href="#">B-MARK'S</a></span>
+                <ul class="footer_links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+                <div class="footer_socials">
+                    <a href="https://www.facebook.com" target="_blank"><i class="uil uil-facebook-f"></i></a>
+                    <a href="https://www.facebook.com" target="_blank"><i class="uil uil-instagram"></i></a>
+                    <a href="https://www.facebook.com" target="_blank"><i class="uil uil-twitter-alt"></i></a>
+                </div>
+        </div>
+        <div class="footer_copyright">
+            <small>copyright &copy; Bi-Marks-K Designs</small>
+        </div>
+    </section>
+    
+<script src="./main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper(".testimonial_Swiper", {
+      spaceBetween: 30,
+      loop: true,
+      speed: 2000,
+      centeredSlides: true,
+      autoplay: {
+        delay: 5000,
+        disableOnInteraction: false
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true
+      }
+    });
+  </script>
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "cube",
+      grabCursor: true,
+      cubeEffect: {
+        shadow: true,
+        slideShadows: true,
+        shadowOffset: 20,
+        shadowScale: 0.94,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
+  
+</body>
+</html>

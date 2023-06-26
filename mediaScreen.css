@@ -1,0 +1,349 @@
+/*==========Tablets==========*/
+@media screen and (max-width:1024px) {
+    .container {
+        width: var(--width-md);
+    }
+/*-------------Nave Bar--------------*/
+    .nav_menu {
+        display: none;
+    }
+
+    .small_menu {
+        display: flex;
+        background: rgba(0, 0, 0, 0.3);
+        width: max-content;
+        backdrop-filter: blur(8rem);
+        padding: 0.7rem 1.7rem;
+        border-radius: 3rem;
+        display: flex;
+        gap: 0.8rem;
+        position: fixed;
+        z-index: 999;
+        bottom: 3rem;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .small_menu i {
+        background: transparent;
+        padding: 0.9rem;
+        color: var(--color-light);
+        border-radius: 50%;
+        font-size: 1rem;
+        display: flex;
+        cursor: pointer;
+    }
+    
+    .small_menu i:hover {
+        background: rgba(0, 0, 0, 0.3);
+    }
+    
+    .small_menu i.activeLink {
+        background: var(--color-happy);
+        color: var(--color-bg1);
+    }
+
+    .login_Btn_icon {
+        display: none;
+    }
+/*---------------End------------------*/   
+    .title{
+        font-size: 2.5rem;
+    }
+
+    .about_container_top {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+
+    .about_down_cont {
+        margin: 0rem ;
+    }
+
+    .about_down_info{
+        padding: 0 0 0 0.5rem;
+        margin-bottom: 1rem;
+    }
+
+
+    .experince_container {
+        gap: 2rem;
+        margin: 0 auto;
+        width: fit-content;
+    }
+
+    .portfolio_container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .testimonial_Swiper {
+        width: 80%;
+    }
+
+/*--------- Login Froms-------*/
+    .forms-wrapper {
+        width: 24rem;
+        height: 27rem;
+    }
+}
+
+/*==========Mobile Phones==========*/
+@media screen and (max-width:600px) {
+    .container {
+        width: var(--width-sm);
+    }
+
+    .nav_buttons .login_Btn {
+        display: none;
+    }
+
+    .small_menu {
+        padding: 0.4rem 1rem;
+        gap: 0.8rem;
+    }
+    
+    .small_menu i {
+        padding: 0.6rem;
+        font-size: 0.8rem;
+        margin: 0;
+    }
+
+    .header {
+        background-position: 50%;
+    }
+
+    .title{
+        font-size: 1.3rem;
+    }
+
+    .logo {
+        font-size: 1rem;
+    }
+
+    .about_container_top {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        padding: 0;
+        margin:  -1rem auto;
+       
+    }
+
+    .about_container_down {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        
+        margin: 0 auto;
+    }
+
+    .about_info {
+        padding: 0.3rem;
+        margin: 0.2rem 0.7rem ;
+    }
+
+    .about_down_cont button {
+        margin: 0;
+        font-size: 0.8rem;
+        padding: 0.3rem 0.4rem;
+    }
+
+    .about_down_cont {
+        margin: 0.3rem 1rem ;
+    }
+/*------------Exprience Section-------------*/
+    .exp_sect_pic {
+       
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./img/code1.jpeg');
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+
+    .exp_sect_pic h2 {
+        font-size: 1.3rem;
+    }
+
+    .experince_container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .end_development {
+        padding: 0.2rem;
+        margin: 0.5rem auto;
+    }
+
+    .end_development h4{
+        font-size: 1.05rem;
+        margin: 0.5rem 0 1.3rem 0;
+    }
+
+    .end_content {
+        gap: 0;
+        margin: -1rem 0 0.3rem 0;
+    }
+
+/*------------Portfolio Section-------------*/
+    .porfolio_sect_pic {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./img/natureboy.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    }
+    
+    .porfolio_sect_pic h2 {
+    font-size: 1.3rem;
+
+    }
+
+    .portfolio_container {
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+        gap: 1.2rem;
+        padding: 2rem;
+    }
+
+    .portfolio_content {
+        padding: 1rem 0.8rem 1rem 0.8rem;
+        margin: 0 1.2rem 0 1.2rem;
+    }
+
+/*------------Testimonial Section-------------*/
+    .testimonial_Swiper {
+        width: 100%;
+    }
+
+    .testimonial_content {
+        font-size: 0.9rem;
+        padding: 1.2rem;
+    }
+
+/*------------Contact Section-------------*/
+    .contact {
+        margin: -3rem 0 0 0;
+    }
+
+    .contact h2 {
+        margin: -0.5rem 0 1.5rem 0 ;
+    }
+
+    .contact_container {
+        grid-template-columns:1fr;
+        gap: 2rem;
+        margin: -5rem auto -1.5rem auto;
+    }
+
+    .contact_form {
+        width: 85%;
+        margin: -2.5rem auto 1rem auto;
+    }
+
+    .contact_socials {
+        padding: 2rem;
+        margin: 2rem;
+    }
+
+ /*------------Footer Section-------------*/
+    .footer_container {
+        gap: 3rem;
+    }
+
+    .footer_links {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+/*--------- Login Froms-------*/
+    .forms-wrapper {
+        width: 18rem;
+        height: 22rem;
+    }
+    
+    .close-icon {
+        font-size: 0.9rem;
+    }
+
+    .form-box {
+        padding: 1rem;
+    }
+
+    .form-box h1 {
+        font-size: 1.3rem;
+        margin: 1rem 0 0 0;
+    }
+
+    .input-box input {
+        font-size: 0.8rem;
+        padding: 0 1rem 0 0.1rem;
+     }
+
+     .input-box .icon {
+        font-size: 1rem;
+        line-height: 2.8;
+     }
+
+     .remember-forgot {
+        font-size: 0.8rem;
+        margin: -0.5rem 0 0.2rem 0;
+    }
+
+    .form-box .form_btn {
+        font-size: 0.8rem;
+        padding: 0.6rem 1.5rem;
+        margin: 0.3rem 0;
+    }
+
+    .login-register p{
+        font-size: 0.8rem;
+    }
+
+    .login-register span {
+        font-size: 0.8rem;
+    }
+
+    .login_Btn_icon {
+        display: flex;
+    }
+
+    .forms-wrapper.form_active {
+        height: 24.5rem;
+    }
+
+    .register h1 {
+        margin:  0 0 -1.5rem 0;
+    }
+
+    /*---------Menus----------*/
+   .small_menu {
+        padding: 0.2rem 0.2rem;;
+        bottom: 0.6rem;
+        position: fixed;
+        z-index: 999;
+        bottom: 1.5rem;
+    } 
+    
+    .nav_buttons.join {
+        display: block;
+    }
+    
+    /*----------Gallery---------*/
+
+    .gallery_container {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    
+     .swiper {
+        margin-bottom: 2rem;
+        width: 90%;
+    } 
+
+    .gallery_container img {
+        height: 30vh;
+        width: 100%;
+    }
+
+    .footer_copyright {
+        margin-bottom: 1rem;
+    }
+    
+}

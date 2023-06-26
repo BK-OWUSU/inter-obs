@@ -1,0 +1,201 @@
+/*Login/Sign-In Forms Section*/
+.sign-forms{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 20;
+}
+ .forms-wrapper {
+    position: absolute;
+    width: 27rem;
+    height: 30rem;
+    background: rgba(255,255,255, 0.3);
+    border-radius: 20px;
+    border: 2px solid var(--color-light);
+    backdrop-filter: blur(2rem);
+    box-shadow: 0 0 3rem rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform var(--transition);
+    overflow: hidden;
+    transition: height 0.6s;
+    position: fixed;
+    transform: scale(0);
+}
+
+/*---------Active------------*/
+.forms-wrapper.form_active {
+    height: 33rem;
+    transition: var(--transition);
+}
+
+.forms-wrapper.form_active .form-box.login {
+    transform: translateX(-27rem);
+    transition: var(--transition);
+}
+
+.forms-wrapper.form_active .form-box.register {
+    transform: translateX(0);
+    transition: var(--transition);
+}
+
+
+.forms-wrapper.sign-pop {
+    transform: scale(1);
+    transition: var(--transition); 
+} 
+ 
+/*---------Active End---------*/
+
+.forms-wrapper .form-box.login {
+     transition: var(--transition); 
+}
+
+.forms-wrapper .form-box.register{
+     position: absolute;
+     transform: translateX(27rem);
+     transition: var(--transition); 
+}
+
+
+.close-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 3rem;
+    height: 3rem;
+    color: var(--color-white);
+    background: var(--color-bg);
+    display: flex;
+    font-size: 1.1rem;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 20px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+
+.form-box {
+    width: 100%;
+    padding: 2rem;
+}
+
+.form-box h1 {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 600;
+    color: var(--color-bg);
+}
+
+.input-box {
+    position: relative;
+    width: 100%;
+    height: 3rem;
+    border-bottom: 0.28rem solid var(--color-bg);
+    margin: 2rem 0;
+}
+
+.input-box label {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: var(--color-bg);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+ .input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1.1rem;
+    padding: 0 2rem 0 0.2rem;
+    color: var(--color-light);
+ }
+ 
+.input-box input:focus ~ label,
+.form-box input:valid ~ label {
+    top: 0;
+    transition: var(--transition);
+}
+
+ .input-box .icon {
+    position: absolute;
+    right: 0.3rem;
+    font-size: 1.2rem;
+    line-height: 2.7;
+    color: var(--color-bg);
+ }
+
+.remember-forgot {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.remember-forgot input[type="checkbox"] {
+    accent-color: var(--color-bg);
+    margin-right: 3px;
+} 
+
+.remember-forgot a {
+    text-decoration: none;
+    border-bottom: 1.8px solid transparent;
+    color: var(--color-white);
+    transition: var(--transition);
+}
+
+.remember-forgot a:hover {
+    border-color: var(--color-white);
+}
+
+.form-box .form_btn {
+    color: var(--color-white);
+    font-size: 1.1rem;
+    background: var(--color-bg);
+    outline: none;
+    border: none;
+    padding: 0.7rem 2rem;
+    width: 100%;
+    margin: 1rem 0;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.form-box .form_btn:hover {
+    transform: scale(1.02);
+}
+
+.login-register p{
+    width: 100%;
+    font-weight: 500;
+    text-align: center;
+    font-size: 1.05rem;
+}
+
+.login-register span {
+    text-decoration: none;
+    color: var(--color-white);
+    font-size: 1.05rem;
+    border-bottom: 1.8px solid transparent;
+    transition: var(--transition);
+}
+
+.login-register span:hover {
+    border-color: var(--color-white);
+} 
